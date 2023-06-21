@@ -1,0 +1,32 @@
+.logo{
+    justify-content: center;
+    display: flex;
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+body{
+    background-color: black;
+}
+.logo ul{
+    list-style-type: none;
+}
+.body ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.body ul li{
+    display: inline-block;
+    margin: 200px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+
+.body ul li a:hover{
+    background-color: yellow;
+    color: black;
+}
